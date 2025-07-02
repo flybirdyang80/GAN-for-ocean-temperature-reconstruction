@@ -11,7 +11,7 @@ from torchvision.models import vgg19, VGG19_Weights
 from torchvision.utils import save_image
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
-from global_model import *
+from model import *
 from tempdataset import *
 import torch
 
