@@ -150,22 +150,13 @@ def main():
             pred_fake = discriminator(fake_B, real_A)
             loss_GAN = criterion_GAN(pred_fake, valid)
 
-            # Argo dot loss
-            mask = Argo_data != 0
-            # 过滤有效的输出和真实值
-            filtered_Argo = Argo_data[mask]
-            filtered_fakeb = fake_B[mask]
-            dot_loss = criterion_Argodot(filtered_fakeb, filtered_Argo)
-
             # Pixel-wise loss
             loss_pixel = criterion_pixelwise(fake_B, real_B)
             loss_pixel2 = criterion_pixelwise2(fake_B, real_B)
             pixel_total = loss_pixel * 0.6 + loss_pixel2 * 0.4
 
             # Total loss
-            # loss_G = loss_GAN + lambda_pixel1 * pixel_total + Lambda_Argo * lambda_pixel * dot_loss
             loss_G = loss_GAN + lambda_pixel1 * pixel_total
-            # loss_G = lambda_pixel * dot_loss
             loss_G.backward()
 
             optimizer_G.step()
