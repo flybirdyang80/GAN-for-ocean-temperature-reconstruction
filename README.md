@@ -11,13 +11,13 @@ ARGO（数据地址：http://www.argodatamgt.org）
 再分析数据（数据地址：https://doi.org/10.48670/moi-00021）  
 </span>
 
-<span style="font-family: SimSun, 'Times New Roman'; font-size: 20pt;">
+<span style="font-family: SimSun, '宋体'; font-size: 20pt;">
   生成器网络结构
 </span>
 
 <img width="755" alt="生成器2 18" src="https://github.com/user-attachments/assets/f70af777-1481-4e64-ad85-9fea2950ee5e" />
 
-<span style="font-family: SimSun, 'Times New Roman'; font-size: 20pt;">
+<span style="font-family: SimSun, '宋体'; font-size: 20pt;">
   鉴别器网络结构
 </span>
 
