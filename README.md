@@ -12,6 +12,11 @@ ARGO（数据地址：http://www.argodatamgt.org）
 </span>
 
 <span style="font-family: SimSun, 'Times New Roman'; font-size: 20pt;">
+  生成器网络结构
+</span>
 <img width="755" alt="生成器2 18" src="https://github.com/user-attachments/assets/f70af777-1481-4e64-ad85-9fea2950ee5e" />
+<span style="font-family: SimSun, 'Times New Roman'; font-size: 20pt;">
+  鉴别器网络结构
+</span>
 <img width="1608" alt="鉴别器加入SSS" src="https://github.com/user-attachments/assets/624fe867-fe74-4020-8a9e-ccaa17ebb267" />
 
